@@ -1,4 +1,4 @@
-**## 📝 PostPad - Simple Content Posting App**
+**#📝 PostPad - Simple Content Posting App**
 
 PostPad is a lightweight content posting web app that allows users to create, edit, and manage short posts with optional images and videos. It runs fully in the browser — no backend or login required.
 
