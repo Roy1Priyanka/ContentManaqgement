@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>PostPad</title>
+</head>
+<body>
+  <header>
+    <h1>PostPad</h1>
+  </header>
+
+  <main class="flex-container">
+    <section class="input-section">
+      <h2>Create Post</h2>
+
+      <div>
+        <label for="title">Title:</label>
+        <input type="text" id="title" placeholder="Title" />
+      </div>
+
+      <div>
+        <label for="category">Category:</label>
+        <select id="category">
+          <option value="">-- Select --</option>
+          <option value="Blog">Blog</option>
+          <option value="Tutorial">Tutorial</option>
+          <option value="Travel">Travel</option>
+          <option value="Personal">Personal</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="content">Content:</label>
+        <textarea id="content" placeholder="Write your content..."></textarea>
+      </div>
+
+      <div>
+        <label for="image">Image:</label>
+        <input type="file" id="image" accept="image/*" />
+      </div>
+
+      <div>
+        <label for="video">Video:</label>
+        <input type="file" id="video" accept="video/*" />
+      </div>
+
+      <button onclick="submitForm()">Post</button>
+    </section>
+
+    <section id="dataSection" class="output-section">
+      <h2>Your Posts</h2>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
