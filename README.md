@@ -13,7 +13,6 @@ PostPad is a lightweight content posting web app that allows users to create, ed
 - 🗂 Organize posts by category
 - 🕒 Auto-generated timestamps
 - 💾 Posts persist using **localStorage**
-- 📥 Download uploaded **images and videos**
 - 📱 Fully **responsive** design for mobile and desktop
 
 ---
